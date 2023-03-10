@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+ <h1>SIGN-IN</h1> 
+ <form action="">
+    <label for="name" >Name</label>
+    <input type="text" placeholder="Fullname" id="name"><br>
+
+    <label for="email">E-mail</label>
+    <input type="email" placeholder="Valid E-mail" id="email"  required><br>
+    
+    <label for="phone number">Phone Number</label>
+    <input type="number" placeholder="Active number" id="number"><br>
+
+<div class="gender">
+    <label for="Male">Male</label>
+    <input type="radio" name="sex" id="Male" value="male">
+    
+    <label for="Female">Female</label>
+    <input type="radio" name="sex" id="Female" value="female"><br>
+</div>
+    <label for="Password">Password</label>
+    <input type="password" placeholder="Password" id="password" required><br>
+    <button type="submit">SUBMIT</button>
+ 
+    <div class="correct">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        Submitted successfully.
+      </div>
+</form>  
+</body>
+</html>
