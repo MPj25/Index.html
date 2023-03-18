@@ -1,0 +1,87 @@
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+    body{
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    background-image: url(img/pink.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin-top:20px ;
+    color: rgb(0, 44, 67);
+}
+form{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 450px;
+    height: fit-content; ;
+    margin-left: 500px;
+    margin-top: 100px;
+    
+}
+.tag{
+    margin-bottom: 20px;
+}
+.tag >label{
+    margin-right:-10px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold; 
+    color: rgb(0, 44, 67);
+}
+.tag>input{
+    padding: 5px;
+    margin: 10px;
+    margin-left: 30px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(0, 45, 56);
+}
+.gender {
+    font-size: 14px;
+    font-weight: bold; 
+    color: rgb(0, 44, 67);
+    width: 300px;
+    
+}
+.gender .sex {
+margin: 10px;
+text-align: center;
+}
+.gender >label{
+    margin-right: 10px;
+
+}
+
+button{
+    font-size: 16px;
+    padding: 10px;
+    margin: 40px;
+    margin-left: 250px;
+    width: 150px;
+    color: rgb(255, 255, 255) ;
+    background-color: rgb(46, 100, 129);
+    border: none;
+    border-radius: 20px;
+}
+button:hover{
+    background-color:rgb(0, 44, 67);
+    
+}
+.correct{
+    margin: 10px ;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+    color: #059;
+    background-color: #BEF;
+  }
+.closebtn{
+    cursor:pointer;
+}
